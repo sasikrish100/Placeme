@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<title>Profile</title>
+<!-- Stylesheet -->
+<link rel="stylesheet" type="text/css" href="#">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-black w3-xlarge" style="width:19%;">
+          
+      <!-- <h1 class="w3-bar-item">Placeme</h1> -->
+      <a href="#" class="w3-bar-item" style="text-decoration: none;"><i class="fas fa-graduation-cap w3-xxxlarge"></i><span>Placeme</span></a>
+      <a href="dashboard_SM.html" class="w3-bar-item w3-button"><span>Dashboard</span></a>
+      <a href="profile_SM.html" class="w3-bar-item w3-button"><i class="fas fa-user"></i><span>Profile</span></a>
+      <a href="view_job_SM.html" class="w3-bar-item w3-button"><i class="fas fa-address-card"></i><span>View Jobs</span></a>
+    
+</div>
+<!-- Navbar -->
+<div style="margin-left:19%;">
+  <div class="w3-bar w3-border w3-light-grey">
+      <a href="#" class="w3-bar-item w3-button" style="font-weight: bolder;font-size: 2rem;">Placement Managemant System</a>
+  <div class="w3-dropdown-hover w3-right">
+      <a href="#" class="w3-bar-item w3-right" style="text-decoration: none;"><i class="fas fa-user-circle" style="padding: 10px; font-size: 20px;"></i>Peter (Student)</a>
+  <div class="w3-dropdown-content w3-bar-block w3-border" style="right: 0; margin-top: 45px;">
+      <a href="#" class="w3-bar-item w3-button">Profile</a>
+      <a href="#" class="w3-bar-item w3-button">Logout</a>
+  </div>
+ </div>
+</div>
+</div>
+
+<!-- Heading -->
+<div class="w3-row w3-margin-top">
+  <div class="w3-col w3-container w3-blue" style="width:19%;"><p>150px</p></div>
+  <div class="w3-col w3-container "  style="width: 30%; font-weight: bolder;font-size: 2rem;">Profile Update:</div>
+  
+</div>
+
+<div class="w3-container" style="margin-top: 10px; margin-left: 25%; width: 400px;">
+  <table class="w3-table">
+    
+    <tr>
+      <th><label>Name</label></th>
+      <td><input class="w3-input w3-border  w3-border-black" type="text" placeholder="Enter student name"></td>
+    </tr>
+    <tr>
+      <th><label>DOB</label></th>
+      <td> <input class="w3-input w3-border  w3-border-black" type="date" placeholder="DOB"></td>
+    </tr>
+
+    <tr>
+     <th><label>Email:</label></th>
+    <td><input class="w3-input w3-border  w3-border-black" type="email" placeholder="Enter Email"></td>
+    </tr>
+    <tr>
+      <th><label>Phone:</label></th>
+    <td><input class="w3-input w3-border  w3-border-black" type="text" placeholder="Enter phone number"></td>
+    </tr>
+    <tr>
+       <th><label>Address:</label></th>
+    <td><input class="w3-input w3-border  w3-border-black" type="text" placeholder="Enter adress"></td>
+    </tr>
+    <tr>
+      <th><label>City:</label></th>
+    <td><select class="w3-select w3-border w3-border-black" name="option" required="">
+  <option value="">Choose your option</option>
+  <option value="1">Chennai</option>
+  <option value="2">Bangalore</option>
+  <option value="3">Mumbai</option>
+</select></td>
+    </tr>
+    <tr>
+       <th><label>State:</label></th>
+   <td> <select class="w3-select w3-border w3-border-black" name="option" required="">
+  <option value="">Choose your option</option>
+  <option value="1">Tamil Nadu</option>
+  <option value="2">Andhra Pradesh</option>
+  <option value="3">Kerela</option>
+</select></td>
+    </tr>
+    <tr>
+      <th><label>Country:</label></th>
+    <td><select class="w3-select w3-border w3-border-black" name="option" required="">
+  <option value="">Choose your option</option>
+  <option value="1">India</option>
+  <option value="2">Europe</option>
+  <option value="3">Indonesia</option>
+</select></td>
+    </tr>
+    <tr>
+      <th><label>University:</label></th>
+    <td><input class="w3-input w3-border  w3-border-black" type="text" placeholder="Enter University name"></td>
+    </tr>
+    <tr>
+     <th><label>College:</label></th>
+    <td><input class="w3-input w3-border  w3-border-black" type="text" placeholder="Enter college name"></td>
+    </tr>
+    <tr>
+       <th><label>College location:</label></th>
+    <td><input class="w3-input w3-border  w3-border-black" type="text" placeholder="Enter College location"></td>
+    </tr>
+    <tr>
+      <th><label>Department:</label></th>
+    <td><input class="w3-input w3-border  w3-border-black" type="text" placeholder="Enter Department"></td>
+    </tr>
+    <tr>
+      <th><label>Academic year:</label></th>
+    <td><select class="w3-select w3-border w3-border-black" name="option" required="">
+  <option value="">Choose your option</option>
+  <option value="1">First</option>
+  <option value="2">Second</option>
+  <option value="3">Third</option>
+  <option value="4">Fourth</option>
+</select></td>
+    </tr>
+    <tr>
+      <th> <label>Upload Resume:</label></th>
+      <td><form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <!-- <input type="submit"> -->
+</form></td>
+    </tr>
+    <tr>
+      <td><button class="w3-btn w3-black">Cancel</button></td>
+      <td><button class="w3-btn w3-black">Save</button></td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+</body>
+</html>
